@@ -88,6 +88,7 @@ footer h2::after, .footer_mail-section .field button.button_custom, .cprt {
     padding: 50px 20px !important;
 }
 
+
 .tp-caption.NotGeneric-SubTitle, .NotGeneric-SubTitle {
 	color: #666 !important;
 }
@@ -96,6 +97,56 @@ footer h2::after, .footer_mail-section .field button.button_custom, .cprt {
 	color: #062c4c !important;
 	font-size: 52px !important;
 }
+
+
+@media (max-width: 768px) {
+	.tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.rs-parallaxlevel-0 {
+		max-width: 425px !important;
+		min-width: 425px !important;
+		padding: 37px 20px !important;
+		
+	}
+	.tp-caption.NotGeneric-Title, .NotGeneric-Title {
+		color: #062c4c !important;
+		font-size: 26px !important;
+		/* text-align: center !important; */
+	}
+	
+	
+}
+
+@media (max-width: 425px) {
+	.tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.rs-parallaxlevel-0 {
+		max-width: 380px !important;
+		min-width: 380px !important;
+		/* padding: 30px 20px !important; */
+		
+	}
+	/* .tp-caption.NotGeneric-Title, .NotGeneric-Title {
+		color: #062c4c !important;
+		font-size: 26px !important;
+		text-align: center !important;
+	} */
+	
+	
+}
+@media (max-width: 375px) {
+	.tp-caption.tp-shape.tp-shapewrapper.tp-resizeme.rs-parallaxlevel-0 {
+		max-width: 320px !important;
+		min-width: 320px !important;
+		/* padding: 25px 20px !important; */
+		
+	}
+	.tp-caption.NotGeneric-Title, .NotGeneric-Title {
+		color: #062c4c !important;
+		font-size: 22px !important;
+		text-align: center !important;
+	}
+	
+	
+}
+
+
 
 a.btn.main_bt,
 button.btn.main_bt {
